@@ -1,5 +1,10 @@
+process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
+
+require("dotenv").config();
 const mongoose = require("mongoose");
 const colors = require("colors");
+const dns = require("dns");
+dns.setServers(["8.8.8.8", "8.8.4.4"]);
 
 const connectDB = async () => {
   try {
