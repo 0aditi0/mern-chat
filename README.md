@@ -51,7 +51,7 @@ Start the server
 ```bash
   cd ..
   cd backend/
-  npm run start
+  npm start
 ```
 Start the Client
 
