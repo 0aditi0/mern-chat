@@ -38,7 +38,7 @@ Set environment variables
   set MONGO_URI="mongodb+srv://aditianand1112:aditianand1112@cluster1.2bixzbm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster1"
   set JWT_SECRET="aditi"
   set PORT=5000
-  set NODE_ENV=development
+  set NODE_ENV=production
 ```
 
 ```bash
