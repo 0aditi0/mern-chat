@@ -17,29 +17,40 @@ Uses Socket.io for real time communication and stores user details in encrypted 
 Clone the project
 
 ```bash
-  git clone https://github.com/piyush-eon/mern-chat-app
+  [git clone https://github.com/0aditi0/mern-chat.git]
 ```
 
 Go to the project directory
 
 ```bash
-  cd mern-chat-app
+  cd mern-chat
 ```
 
 Install dependencies
 
 ```bash
-  npm install
+  cd backend/
+  npm install --legacy-peer-deps
+  npm install dotenv
+```
+Set environment variables
+```bash
+  set MONGO_URI="mongodb+srv://aditianand1112:aditianand1112@cluster1.2bixzbm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster1"
+  set JWT_SECRET="aditi"
+  set PORT=5000
+  set NODE_ENV=development
 ```
 
 ```bash
   cd frontend/
-  npm install
+  npm install --legacy-peer-deps
 ```
 
 Start the server
 
 ```bash
+  cd ..
+  cd backend/
   npm run start
 ```
 Start the Client
